@@ -32,3 +32,77 @@ h3 {
 h1, h2, h3 {
   font-family: Georgia, "Times New Roman", serif;
 }
+p {
+  max-width: 60ch;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+/* TESTE — borda no main (depois comente ou apague) */
+main {
+  border: 3px dashed rgb(121, 173, 58);
+}
+/* ===== 4. CLASSES ===== */
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0 0 0.5rem 0;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #526f48;
+  border: 1px solid #040304;
+  border-radius: 12px;
+  padding: 1.25rem;
+  flex: 1 1 240px;
+}
+.destaque {
+  background-color: #ffa3e6;
+  border-color: #000000;
+}
+.botao {
+  display: inline-block;
+  background-color: #f6a910;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.botao:hover {
+  background-color: #e6c339;
+}
+/* ===== 5. IDS ===== */
+
+#topo {
+  border-bottom: 4px solid #e63946;
+}
+
+
+
+#atividades {
+  padding: 2rem;
+}
+
+#contato {
+  background-color: #14213d;
+  color: #e5e5e5;
+  text-align: center;
+  padding: 1.5rem;
+}
+
